@@ -8,11 +8,16 @@ Controls:
   - h:                      help
   - shift (hold):           grid snapping
   - control (hold):         angle snapping
+  - option (hold):          snap to existing points
   - shift+control (hold):   angle and length snapping
+  - q/a                     angle snap amount up/down
   - z (hold):               selection tool
   - x (hold):               color selection tool
   - c:                      toggle color selection mode
-    - w,e,r,t,s,d,f,g       adjust color components
+    - w/s:                  red value up/down
+    - e/d:                  green value up/down
+    - r/f:                  blue value up/down
+    - t/g:                  alpha value up/down
     - shift (hold)          precise adjustments
   - escape:                 finish curve
   - backspace:              delete selected curves
